@@ -1,0 +1,55 @@
+:root {
+    --color-fondo: #F9F8F6;
+    --color-texto: #4A3B32;
+    --color-acento: #6B8E6A;
+    --color-secundario: #C88A58;
+    --color-blanco: #FFFFFF;
+}
+.slabo-13px-regular {
+    font-family: "Slabo 13px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: "Slabo 13px";
+    color: var(--color-texto);
+}
+/*Header y nav*/
+
+header{
+    background-color: var(--color-acento);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+header h1{
+    font-family: "Fleur De Leah";
+    font-size: 60px;
+    padding-left: 20px;
+}
+header nav ul{
+    display:flex;
+    list-style:none;
+    gap: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+header nav a:hover {
+    color: var(--color-texto);
+}
