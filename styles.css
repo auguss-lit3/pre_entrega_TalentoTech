@@ -110,3 +110,30 @@ header nav a:hover {
     object-fit: cover;
     border-radius: 22px;
 }
+/*Productos*/
+.productos{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.productos h2{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+}
+.productos_container{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 30px;
+    width: 280px;
+}
+.card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
