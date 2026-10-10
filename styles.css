@@ -210,7 +210,6 @@ header nav a:hover {
     margin: auto;
     padding: 35px;
     border: 1px solid;
-    
 }
 .campo{
     margin:auto;
@@ -234,7 +233,7 @@ header nav a:hover {
     color: var(--color-blanco);
     padding: 10px;
     border-radius: 20px;
-    border: var(--color-texto) solid 0.1px;
+    border: var(--color-texto) solid 1px;
     font-family: "Slabo 13px";
 }
 
@@ -247,4 +246,26 @@ header nav a:hover {
     border-color:#5c534e
 }
 
-/*Contacto*/
+/*Footer*/
+
+footer{
+    background-color: var(--color-texto);
+    color: var(--color-fondo);
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+.logo{
+    font-family: "Fleur de Leah";
+    font-size: 70px;
+}
+.logo_subtitle{
+    padding-bottom: 15px;
+    font-style: italic;
+}
+.logo_final{
+    border-top: var(--color-fondo) solid 1px;
+    padding-top: 15px;
+    font-size: 12px;
+    opacity: 50%;
+}
