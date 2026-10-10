@@ -137,3 +137,51 @@ header nav a:hover {
     height: 220px;
     object-fit: cover;
 }
+/*Productos animaciones*/
+.card img{
+    transition: transform 0.3s ease; 
+}
+.card img:hover {
+    transform: scale(1.1); 
+}
+.card:hover{
+    color:#6B8E6A;
+}
+/*Productos animaciones*/
+
+.card h3{
+    text-align: center;
+    padding: 10px;
+}
+.precio{
+    text-align: center;
+    padding: 10px;
+    color: var(--color-acento);
+    font-size: large;
+}
+
+/*Reseñas*/
+.resenas h2{
+    text-align: center;
+    padding: 20px;
+}
+.resenas{
+    padding: 40px;
+}
+.resena{
+    background-color: var(--color-blanco);
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    border-radius: 25px;
+}
+.resena:hover{
+    transform: scale(1.05); 
+}
+.resenas_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.resena p{
+    color: var(--color-acento);
+}
