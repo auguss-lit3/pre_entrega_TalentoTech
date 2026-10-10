@@ -200,8 +200,51 @@ header nav a:hover {
 .contacto p{
     text-align: center;
     padding: 5px;
+    padding-bottom: 20px;
 }
 .contacto_container{
     border-color: var(--color-texto);
-    border-radius: 50px;
+    border-radius: 30px;
+    background-color: var(--color-blanco);
+    max-width: 1600px;
+    margin: auto;
+    padding: 35px;
+    border: 1px solid;
+    
 }
+.campo{
+    margin:auto;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.contacto_container textarea,
+.contacto_container input{
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contacto_container textarea{
+    height: 90px;
+}
+
+.contacto_container button{
+    background-color: var(--color-acento);
+    color: var(--color-blanco);
+    padding: 10px;
+    border-radius: 20px;
+    border: var(--color-texto) solid 0.1px;
+    font-family: "Slabo 13px";
+}
+
+.contacto_container button:hover{
+    color: var(--color-texto);
+    background-color: #86a385;
+}
+.contacto_container textarea:hover,
+.contacto_container input:hover{
+    border-color:#5c534e
+}
+
+/*Contacto*/
