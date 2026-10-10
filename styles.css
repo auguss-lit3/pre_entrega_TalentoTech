@@ -174,9 +174,11 @@ header nav a:hover {
     transition: transform 0.3s ease; 
     border-radius: 25px;
 }
+/*Reseñas animaciones*/
 .resena:hover{
     transform: scale(1.05); 
 }
+/*Reseñas animaciones*/
 .resenas_container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -184,4 +186,22 @@ header nav a:hover {
 }
 .resena p{
     color: var(--color-acento);
+}
+
+/*Contacto*/
+.contacto{
+    padding: 80px;
+}
+.contacto h2{
+    text-align: center;
+    font-family: "Fleur de Leah";
+    font-size: 70px;
+}
+.contacto p{
+    text-align: center;
+    padding: 5px;
+}
+.contacto_container{
+    border-color: var(--color-texto);
+    border-radius: 50px;
 }
